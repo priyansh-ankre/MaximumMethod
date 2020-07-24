@@ -32,5 +32,18 @@ namespace MaximumMethod
             }
             return maximum;
         }
+        public string findMaximumString(string firstNumber, string secondNumber, string thirdNumber)
+        {
+            string maximum = firstNumber;
+            if (secondNumber.CompareTo(maximum) > 0)
+            {
+                maximum = secondNumber;
+            }
+            if (thirdNumber.CompareTo(maximum) > 0)
+            {
+                maximum = thirdNumber;
+            }
+            return maximum;
+        }
     }
 }
