@@ -1,0 +1,13 @@
+C:\Users\hp\source\repos\MaximumMethodApp\MaximumMethod\bin\Debug\netcoreapp3.1\MaximumMethod.exe
+C:\Users\hp\source\repos\MaximumMethodApp\MaximumMethod\bin\Debug\netcoreapp3.1\MaximumMethod.deps.json
+C:\Users\hp\source\repos\MaximumMethodApp\MaximumMethod\bin\Debug\netcoreapp3.1\MaximumMethod.runtimeconfig.json
+C:\Users\hp\source\repos\MaximumMethodApp\MaximumMethod\bin\Debug\netcoreapp3.1\MaximumMethod.runtimeconfig.dev.json
+C:\Users\hp\source\repos\MaximumMethodApp\MaximumMethod\bin\Debug\netcoreapp3.1\MaximumMethod.dll
+C:\Users\hp\source\repos\MaximumMethodApp\MaximumMethod\bin\Debug\netcoreapp3.1\MaximumMethod.pdb
+C:\Users\hp\source\repos\MaximumMethodApp\MaximumMethod\obj\Debug\netcoreapp3.1\MaximumMethod.csprojAssemblyReference.cache
+C:\Users\hp\source\repos\MaximumMethodApp\MaximumMethod\obj\Debug\netcoreapp3.1\MaximumMethod.AssemblyInfoInputs.cache
+C:\Users\hp\source\repos\MaximumMethodApp\MaximumMethod\obj\Debug\netcoreapp3.1\MaximumMethod.AssemblyInfo.cs
+C:\Users\hp\source\repos\MaximumMethodApp\MaximumMethod\obj\Debug\netcoreapp3.1\MaximumMethod.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\MaximumMethodApp\MaximumMethod\obj\Debug\netcoreapp3.1\MaximumMethod.dll
+C:\Users\hp\source\repos\MaximumMethodApp\MaximumMethod\obj\Debug\netcoreapp3.1\MaximumMethod.pdb
+C:\Users\hp\source\repos\MaximumMethodApp\MaximumMethod\obj\Debug\netcoreapp3.1\MaximumMethod.genruntimeconfig.cache
