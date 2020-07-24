@@ -6,44 +6,19 @@ namespace MaximumMethod
 {
     public class MaximumMethodUtiity
     {
-        public int findMaximumNumber(int firstNumber,int secondNumber,int thirdNumber)
+       public E findMaximum<E>(E first,E second,E third) where E : IComparable
         {
-            int maximum = firstNumber;
-            if (secondNumber.CompareTo(maximum) > 0)
+            E maximum = first;
+            if (second.CompareTo(maximum) > 0)
             {
-                maximum = secondNumber;
+                maximum = second;
             }
-            if (thirdNumber.CompareTo(maximum) > 0)
+            if (third.CompareTo(maximum) > 0)
             {
-                maximum = thirdNumber;
+                maximum = third;
             }
             return maximum;
         }
-        public double findMaximumFloat(double firstNumber, double secondNumber, double thirdNumber)
-        {
-            double maximum = firstNumber;
-            if (secondNumber.CompareTo(maximum) > 0)
-            {
-                maximum = secondNumber;
-            }
-            if (thirdNumber.CompareTo(maximum) > 0)
-            {
-                maximum = thirdNumber;
-            }
-            return maximum;
-        }
-        public string findMaximumString(string firstNumber, string secondNumber, string thirdNumber)
-        {
-            string maximum = firstNumber;
-            if (secondNumber.CompareTo(maximum) > 0)
-            {
-                maximum = secondNumber;
-            }
-            if (thirdNumber.CompareTo(maximum) > 0)
-            {
-                maximum = thirdNumber;
-            }
-            return maximum;
-        }
+
     }
 }
