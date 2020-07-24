@@ -1,12 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading;
 
 namespace MaximumMethod
 {
-    public class MaximumMethodUtiity
+    public class MaximumMethodUtility<E> where E : IComparable<E>
     {
-       public E findMaximum<E>(E first,E second,E third) where E : IComparable
+        E first;
+        E second;
+        E third;
+        public MaximumMethodUtility(E first, E second, E third)
+        {
+            this.first = first;
+            this.second = second;
+            this.third = third;
+        }
+        public E findMaximum()
         {
             E maximum = first;
             if (second.CompareTo(maximum) > 0)
