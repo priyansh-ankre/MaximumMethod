@@ -35,5 +35,20 @@ namespace MaximumMethodTest
         {
             Assert.AreEqual(23.9, maximumMethod.findMaximumFloat(3.8,2.9,23.9));
         }
+        [Test]
+        public void givenStrings_WhenTestedForMaximum_ShouldReturnFirstString()
+        {
+            Assert.AreEqual("peach", maximumMethod.findMaximumString("peach","banana","apple"));
+        }
+        [Test]
+        public void givenStrings_WhenTestedForMaximum_ShouldReturnSecondString()
+        {
+            Assert.AreEqual("peach", maximumMethod.findMaximumString("banana", "peach", "apple"));
+        }
+        [Test]
+        public void givenStrings_WhenTestedForMaximum_ShouldReturnThirdString()
+        {
+            Assert.AreEqual("peach", maximumMethod.findMaximumString("banana", "apple", "peach"));
+        }
     }
 }
