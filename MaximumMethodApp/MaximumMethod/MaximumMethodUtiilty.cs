@@ -7,10 +7,19 @@ namespace MaximumMethod
 {
     public class MaximumMethodUtility
     {
-        public static object findMaximum(params object[] input)
+        object[] input;
+        public MaximumMethodUtility(params object[] input)
+        {
+            this.input = input;
+        }
+        public object findMaximum()
         {
             Array.Sort(input);
             return input[input.Length-1];
+        }
+        public void toPrint()
+        {
+            Console.WriteLine(input[input.Length-1]);
         }
     }
 }
