@@ -5,30 +5,12 @@ using System.Threading;
 
 namespace MaximumMethod
 {
-    public class MaximumMethodUtility<E> where E : IComparable<E>
+    public class MaximumMethodUtility
     {
-        E first;
-        E second;
-        E third;
-        public MaximumMethodUtility(E first, E second, E third)
+        public static object findMaximum(params object[] input)
         {
-            this.first = first;
-            this.second = second;
-            this.third = third;
+            Array.Sort(input);
+            return input[input.Length-1];
         }
-        public E findMaximum()
-        {
-            E maximum = first;
-            if (second.CompareTo(maximum) > 0)
-            {
-                maximum = second;
-            }
-            if (third.CompareTo(maximum) > 0)
-            {
-                maximum = third;
-            }
-            return maximum;
-        }
-
     }
 }

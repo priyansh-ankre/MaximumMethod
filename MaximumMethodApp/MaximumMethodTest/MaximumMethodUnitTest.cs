@@ -5,49 +5,22 @@ namespace MaximumMethodTest
     public class MaximumMethodUnitTest
     {
         [Test]
-        public void givenNumbers_WhenTestedForMaximum_ShouldReturnFirstNumber()
+        public void givenNumbers_WhenTested_ShouldReturnMaximumNumber()
         {
-            Assert.AreEqual(45,new MaximumMethod.MaximumMethodUtility<int>(45,40,35).findMaximum());
+            object[] inputNumbers = { 13, 7, 6, 45, 21, 9, 2, 100 };
+            Assert.AreEqual(100,MaximumMethod.MaximumMethodUtility.findMaximum(inputNumbers));
         }
         [Test]
-        public void givenNumbers_WhenTestedForMaximum_ShouldReturnSecondNumber()
+        public void givenFloats_WhenTested_ShouldReturnMaximumFloat()
         {
-            Assert.AreEqual(45, new MaximumMethod.MaximumMethodUtility<int>(40, 45, 35).findMaximum());
+            object[] inputFloats = { 2.62, 1.32, 5.987, 4.43 };
+            Assert.AreEqual(5.987, MaximumMethod.MaximumMethodUtility.findMaximum(inputFloats));
         }
         [Test]
-        public void givenNumbers_WhenTestedForMaximum_ShouldReturnThirdNumber()
+        public void givenStrings_WhenTested_ShouldReturnMaximumString()
         {
-            Assert.AreEqual(45, new MaximumMethod.MaximumMethodUtility<int>(40,35,45).findMaximum());
-        }
-        [Test]
-        public void givenFloats_WhenTestedForMaximum_ShouldReturnFirstFloat()
-        {
-            Assert.AreEqual(23.9,new MaximumMethod.MaximumMethodUtility<double>(23.9, 3.8, 2.9).findMaximum());
-        }
-        [Test]
-        public void givenFloats_WhenTestedForMaximum_ShouldReturnSecondFloat()
-        {
-            Assert.AreEqual(23.9, new MaximumMethod.MaximumMethodUtility<double>(3.8, 23.9, 2.9).findMaximum());
-        }
-        [Test]
-        public void givenFloats_WhenTestedForMaximum_ShouldReturnThirdFloat()
-        {
-            Assert.AreEqual(23.9, new MaximumMethod.MaximumMethodUtility<double>(3.8, 2.9, 23.9).findMaximum());
-        }
-        [Test]
-        public void givenStrings_WhenTestedForMaximum_ShouldReturnFirstString()
-        {
-            Assert.AreEqual("peach", new MaximumMethod.MaximumMethodUtility<string>("peach","banana","apple").findMaximum());
-        }
-        [Test]
-        public void givenStrings_WhenTestedForMaximum_ShouldReturnSecondString()
-        {
-            Assert.AreEqual("peach", new MaximumMethod.MaximumMethodUtility<string>("banana", "peach", "apple").findMaximum());
-        }
-        [Test]
-        public void givenStrings_WhenTestedForMaximum_ShouldReturnThirdString()
-        {
-            Assert.AreEqual("peach", new MaximumMethod.MaximumMethodUtility<string>("banana", "apple", "peach").findMaximum());
+            object[] inputStrings = { 2.62, 1.32, 5.987, 4.43 };
+            Assert.AreEqual(5.987, MaximumMethod.MaximumMethodUtility.findMaximum(inputStrings));
         }
     }
 }
